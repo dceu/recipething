@@ -1,0 +1,8 @@
+.card-detail{
+    display: none;
+}
+.preview-card:hover +
+    .card-detail{
+        display: block;
+    
+}

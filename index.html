@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- Compiled and minified CSS for Materialize-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript for Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- Local CSS-->
+    <!-- <link rel="stylesheet" href="/recipething/css/styles.css" /> -->
+    <!-- Local Script -->
+    <!-- <script defer src="/mapthing/mapthing.js"></script> -->
+    <script defer type="module" src="/recipething/controller.js"></script>
+
+    <!-- <script defer src="/mapthing.js"></script> -->
+  </head>
+  <body class="main">
+    <!-- <p>Hello World</p> -->
+
+    <nav>
+      <div class="nav-wrapper"></div>
+    </nav>
+
+    <!-- <div class="row"></div> -->
+    <div class="row">
+      <div class="sidebar container col s3">
+        <div class="progress"></div>
+        <ul class="collapsible filters">
+          <li>
+            <div class="collapsible-header">Categories</div>
+            <div class="collapsible-body categories"></div>
+          </li>
+          <li>
+            <div class="collapsible-header">Area</div>
+            <div class="collapsible-body area"></div>
+          </li>
+          <li>
+            <div class="collapsible-header">Ingredients</div>
+            <div class="collapsible-body ingredients"></div>
+          </li>
+          <li>
+            <a
+              class="waves-effect waves-light btn-flat random-btn"
+              href="#random"
+              >Random</a
+            >
+          </li>
+        </ul>
+      </div>
+      <!--end sidebar-->
+
+      <div class="main container col s9">
+        <div class="main-view"></div>
+        <!--end recipe-card-->
+      </div>
+      <!--end main container-->
+    </div>
+    <!--end row -->
+  </body>
+
+  <!-- <div class="recipe-card card"></div> -->
+  <!-- <a href="#!" class="brand-logo"><i class="material-icons">cloud</i>Logo</a> -->
+  <!-- <a href="#" class="brand-logo center">Demo Server</a>
+    <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+    ><i class="material-icons"></i
+  ></a>
+  <ul class="right hide-on-med-and-down">
+    <li>
+      <a href="sass.html"><i class="material-icons">search</i></a>
+    </li>
+    <li>
+      <a href="badges.html"><i class="material-icons">view_module</i></a>
+    </li>
+    <li>
+      <a href="collapsible.html"><i class="material-icons">refresh</i></a>
+    </li>
+    <li>
+      <a href="mobile.html"><i class="material-icons">more_vert</i></a>
+    </li>
+  </ul> -->
+  <!-- Card -->
+  <!-- <div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">Card Title</span>
+          <p>I am a very simple card. I am good at containing small bits of information.
+            I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <!-- End Card -->
+  <!-- <div class="row recipe-header">
+      <div class="col s5 recipe-title"></div>
+      <div class="col s7 recipe-description"></div>
+    </div>
+    
+    <div class="row recipe-details">
+      <div class="col s5 recipe-ingredients"></div>
+      <div class="col s7 recipe-instructions-container">
+        <ul class="col s7 recipe-instructions-list">
+          
+        </ul>
+      </div>
+      
+    </div> -->
+  <!-- <form class="search-bar">
+      <div class="input-field">
+        <input id="search" type="search" required />
+        <label class="label-icon" for="search"
+          ><i class="material-icons">search</i></label
+        >
+        <i class="material-icons">close</i>
+      </div>
+    </form> -->
+</html>
